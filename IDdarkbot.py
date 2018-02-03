@@ -3762,7 +3762,7 @@ def bot(op):
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
-                        ki17.upda√teGroup(G)
+                        ki17.updateGroup(G)
                         print "kicker ok"
                         G.preventJoinByTicket(G)
                         ki17.updateGroup(G)
